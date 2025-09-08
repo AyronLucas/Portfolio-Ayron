@@ -1,0 +1,101 @@
+body {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  background: #076568;
+  font-family: Arial, sans-serif;
+
+}
+
+main {
+
+  background: #ffffff;
+  padding: 30px 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  width: 2000px;
+  height: 1400px;
+
+}
+
+h1 {
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+
+h2 {
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+
+li {
+  font-size: 28px;
+}
+
+a {
+  font-size: 32px;
+  background-color: #076568;
+  color: #ffffff;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 3px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.cards {
+  display: grid;
+  width: 2000px;
+  gap: 25px;
+  margin-top: 20px;
+}
+
+/* Cada card */
+.card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: background-color;
+}
+
+
+.card:hover {
+  transform: translateY(-8px);
+  /*pra dar aquela crescida*/
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+.card h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.card p {
+  font-size: 20px;
+  color: #555;
+}
+
+footer {
+  background-color: #076568;
+  padding: 16px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 16px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
