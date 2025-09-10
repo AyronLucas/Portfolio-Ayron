@@ -4,7 +4,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 40px;
-  background: #076568;
+  background: #6b2222;
   font-family: Arial, sans-serif;
 
 }
@@ -35,7 +35,7 @@ p {
 a {
   height: 40px;
   font-size: 32px;
-  background-color: #076568;
+  background-color: #6b2222;
   color: #ffffff;
   border-radius: 8px;
   margin: 10px;
@@ -121,7 +121,7 @@ img {
 }
 
 footer {
-  background-color: #076568;
+  background-color: #6b2222;
   padding: 16px;
   text-align: center;
   color: #ffffff;

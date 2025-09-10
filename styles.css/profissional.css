@@ -4,7 +4,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 40px;
-  background: #076568;
+  background: #6b2222;
   font-family: Arial, sans-serif;
 
 }
@@ -38,7 +38,7 @@ li {
 
 a {
   font-size: 32px;
-  background-color: #076568;
+  background-color: #6b2222;
   color: #ffffff;
   border-radius: 8px;
   margin: 10px;
@@ -90,7 +90,7 @@ a:hover {
 }
 
 footer {
-  background-color: #076568;
+  background-color: #6b2222;
   padding: 16px;
   text-align: center;
   color: #ffffff;
